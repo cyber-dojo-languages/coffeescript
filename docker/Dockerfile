@@ -1,6 +1,11 @@
-FROM  cyberdojofoundation/javascript-node:8.4.0
+FROM  cyberdojofoundation/ubuntu-build-essential:14.04
 LABEL maintainer=jon@jaggersoft.com
 
-RUN npm install -g coffee-script > version-log.txt
+RUN apt-get update
 
-RUN cat version-log.txt | grep -q coffee-script@1.12.7
+RUN apt-get install --yes curl \
+ && curl --silent --location https://deb.nodesource.com/setup_8.x | bash - \
+ && apt-get remove --yes curl \
+ && apt-get install --yes nodejs \
+ && npm install -global coffee-script \
+ && npm info coffeescript version | grep -q 1.12.7
