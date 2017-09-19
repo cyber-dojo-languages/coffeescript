@@ -7,5 +7,6 @@ RUN apt-get install --yes curl \
  && curl --silent --location https://deb.nodesource.com/setup_8.x | bash - \
  && apt-get remove --yes curl \
  && apt-get install --yes nodejs \
- && npm install -global coffee-script \
- && npm info coffeescript version | grep -q 1.12.7
+ && npm install -global coffee-script
+
+RUN npm info coffeescript version | grep -q 2.0.0
