@@ -1,3 +1,3 @@
-# javascript 8.4.0
+# coffeescript 2.0.1
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/javascript-8.4.0.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/coffeescript-2.0.1.svg?branch=master)
