@@ -1,3 +1,3 @@
-# coffeescript 2.0.2
+# coffeescript 2.0.3
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/coffeescript-2.0.1.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/coffeescript-2.0.3.svg?branch=master)
