@@ -9,4 +9,4 @@ RUN apt-get install --yes curl \
  && apt-get install --yes nodejs \
  && npm install -global coffee-script
 
-RUN npm info coffeescript version | grep -q 2.0.3
+RUN npm info coffeescript version | grep -q 2.1.0
