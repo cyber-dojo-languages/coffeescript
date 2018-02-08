@@ -2,7 +2,7 @@
 set -e
 
 readonly EXPECTED=$(cat README.md | grep Version | cut -d'=' -f2)
-readonly ACTUAL=$(docker run --rm -it cyberdojofoundation/bash sh -c 'npm info coffeescript version')
+readonly ACTUAL=$(docker run --rm -it cyberdojofoundation/coffeescript sh -c 'npm info coffeescript version')
 
 if echo ${ACTUAL} | grep -q ${EXPECTED}; then
   echo "VERSION CONFIRMED as ${EXPECTED}"
