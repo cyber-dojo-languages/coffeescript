@@ -1,3 +1,5 @@
-# coffeescript 2.2.1
+# coffeescript
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/coffeescript-2.2.1.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/coffeescript.svg?branch=master)
+
+[version](./docker/version.txt)
