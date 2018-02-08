@@ -1,13 +1,9 @@
 FROM  cyberdojofoundation/ubuntu-build-essential:16.04
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apt-get update
-
-RUN apt-get install --yes curl \
+RUN apt-get update \
+ && apt-get install --yes curl \
  && curl --silent --location https://deb.nodesource.com/setup_8.x | bash - \
  && apt-get remove --yes curl \
  && apt-get install --yes nodejs \
  && npm install -global coffeescript
-
-COPY version.txt /tmp
-RUN npm info coffeescript version | grep -f /tmp/version.txt
