@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+apt-get update
+apt-get install --yes curl
+curl --silent --location https://deb.nodesource.com/setup_8.x | bash -
+apt-get remove --yes curl
+apt-get install --yes nodejs
+npm install -global coffeescript
