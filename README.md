@@ -1,6 +1,7 @@
-# Coffeescript
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/coffeescript.svg?branch=master)
+[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/coffeescript.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/coffeescript)
+
+## image_name="cyberdojofoundation/coffeescript"
 
 [Version=2.5.0](https://github.com/cyber-dojo-languages/coffeescript/blob/master/check_version.sh)
 
