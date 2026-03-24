@@ -1,5 +1,6 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/coffeescript.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/coffeescript)
+[![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
-## image_name="cyberdojofoundation/coffeescript"
+## display_name="Coffeescript 5.3.3"
+## image_name="ghcr.io/cyber-dojo-languages/coffeescript"
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
